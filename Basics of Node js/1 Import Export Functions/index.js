@@ -1,6 +1,6 @@
-const add = require("./calculator");
+//const add = require("./calculator");
 
-console.log(add(10,15))
+//console.log(add(10,15))
 
 
 // multi functions import 
@@ -8,7 +8,7 @@ console.log(add(10,15))
 
 const calculator = require("./calculator");
 
-const {abb,sub} = calculator;
+const {add,sub} = calculator;
 
 console.log(add(1,2));
 console.log(sub(2,2));
